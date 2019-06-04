@@ -13,9 +13,16 @@ repositories {
 	mavenCentral()
 }
 
+ext {
+	set('springCloudVersion', 'Greenwich.SR1')
+}
+
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	compile group: 'org.springframework.cloud', name: 'spring-cloud-config-server', version: '2.1.2.RELEASE'
-	
+	// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-netflix-eureka-client', version: '2.1.1.RELEASE'
+
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }

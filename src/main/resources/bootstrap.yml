@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: beans
+
+  cloud:
+    config:
+      server:
+        git:
+          clone-on-start: true
+          uri: https://github.com/tanmay23235616/ForMonkBeans.git
+          username: tanmay23235616
+          password: Vugo&$7745
+
+      

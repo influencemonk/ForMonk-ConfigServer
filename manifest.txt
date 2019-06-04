@@ -1,0 +1,1 @@
+Main-Class: C:\Users\NF\Documents\workspace-sts-3.9.6.RELEASE\ForMonk-Config-Server\src\main\java\configserver\ForMonkConfigServerApplication.java
